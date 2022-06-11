@@ -1,0 +1,18 @@
+Build target 'Target 1'
+compiling main.c...
+main.c(3): warning C318: can't open file 'motor.h'
+main.c(6): warning C318: can't open file 'lcd1602.h'
+main.c(76): error C202: 'flag': undefined identifier
+compiling lcd1602.c...
+模块\lcd1602.c(1): error C318: can't open file '模块\lcd1602.c'
+compiling motor.c...
+模块\motor.c(1): error C318: can't open file '模块\motor.c'
+compiling 24c02.c...
+模块\24c02.c(2): warning C318: can't open file 'iic.h'
+模块\24c02.c(14): warning C206: 'iic_start': missing function-prototype
+模块\24c02.c(15): warning C206: 'iic_write_byte': missing function-prototype
+模块\24c02.c(15): error C267: 'iic_write_byte': requires ANSI-style prototype
+compiling iic.c...
+模块\iic.c(1): error C318: can't open file '模块\iic.c'
+Target not created.
+Build Time Elapsed:  00:00:01
